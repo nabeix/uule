@@ -2,7 +2,7 @@
   "name": "uule",
   "version": "0.0.1",
   "description": "A npm module to generate UULE from city name",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "scripts": {
     "clean": "del ./build",
     "prepublish": "npm run clean && npm run build",
@@ -22,7 +22,7 @@
     "url": "https://github.com/nabeix/uule/issues"
   },
   "homepage": "https://github.com/nabeix/uule#readme",
-  "typings": "./build/index.d.ts",
+  "typings": "build/index.d.ts",
   "devDependencies": {
     "@types/node": "^12.0.0",
     "del-cli": "^1.1.0",
