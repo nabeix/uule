@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es2017"],
+    "outDir": "./build",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "declaration": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

@@ -1,2 +1,18 @@
 # uule
-A npm module to generate UULE from city name
+
+A NPM module to generate UULE for Google Search
+
+## Usage
+
+```
+npm install --save uule
+```
+
+```
+import {uule} from "uule",
+console.log(uule("Shibuya,Tokyo,Japan"));
+```
+
+## License
+
+MIT
